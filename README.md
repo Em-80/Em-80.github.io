@@ -8,11 +8,6 @@ This is the official landing page and administrative repository for Dice Minima,
 
 Dice Minima is designed with a low-level-first philosophy. It is built to provide instantaneous results with a persistent history log, ensuring zero impact on battery life or device temperature during long tabletop sessions.
 
-### Core Philosophy
-* **Composition over Inheritance:** The engine is optimized for stability and predictable execution.
-* **Technical Clarity:** Utilizing JetBrains Mono for zero-ambiguity character differentiation (1 vs l vs I).
-* **Privacy by Design:** The Pro version is a dedicated, 100% tracker-free environment for users requiring maximum privacy.
-
 ## Development and Attribution
 
 This project is a complete solo production by Em-80. Every layer of the stack has been engineered and designed without external outsourcing:
@@ -43,4 +38,4 @@ All rights are reserved by Em-80. No part of this repository, including the code
 ---
 
 ### Author
-Designed, engineered, and illustrated by Em-80. Focused on hardware-aware software, data compression, and precision utility tools.
+Designed, engineered, and illustrated by Em-80.
