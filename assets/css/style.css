@@ -22,6 +22,15 @@ body {
     min-height: 100vh;
 }
 
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header {
     text-align: center;
     padding: 60px 20px;
@@ -80,13 +89,7 @@ h1 {
 }
 
 .release-info a {
-    color: var(--accent-color);
-    text-decoration: none;
     font-weight: 600;
-}
-
-.release-info a:hover {
-    text-decoration: underline;
 }
 
 .features {
@@ -195,14 +198,8 @@ footer {
 }
 
 footer a {
-    color: #adb5bd;
-    text-decoration: none;
     margin: 0 10px;
     transition: color 0.2s;
-}
-
-footer a:hover {
-    color: var(--accent-color);
 }
 
 /* Screenshots Section */
