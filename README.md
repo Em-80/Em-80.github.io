@@ -21,11 +21,9 @@ This project is a complete solo production by Em-80. Every layer of the stack ha
 
 ## Ad Verification
 
-This repository hosts the app-ads.txt file required for inventory verification by authorized digital advertising partners, including AdMob, Meta, and AppLovin.
+Dice Minima advertising inventory verification is managed through the publisher website configuration rather than by hosting an `app-ads.txt` file in this repository.
 
-* **Status:** Verified
-* **Standard:** IAB Tech Lab app-ads.txt v1.1
-* **Compliance:** TCF v2.3 / GDPR Compliant
+If ad platform warnings appear, verify that the app's configured website/domain matches the location where the current `app-ads.txt` file is hosted.
 
 ---
 
