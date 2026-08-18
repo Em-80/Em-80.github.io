@@ -1,2 +1,13 @@
+User-agent: *
+Allow: /
+
 User-agent: Google-adstxt
-Disallow:
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://diceminima.com/sitemap.xml

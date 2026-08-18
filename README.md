@@ -21,9 +21,9 @@ This project is a complete solo production by Em-80. Every layer of the stack ha
 
 ## Ad Verification
 
-Dice Minima advertising inventory verification is managed through the publisher website configuration rather than by hosting an `app-ads.txt` file in this repository.
+Dice Minima advertising inventory verification is managed through the publisher website configuration and the root-level `app-ads.txt` file hosted by this repository.
 
-If ad platform warnings appear, verify that the app's configured website/domain matches the location where the current `app-ads.txt` file is hosted.
+If ad platform warnings appear, verify that the app's configured website/domain matches the location where the current `app-ads.txt` file is hosted: `https://diceminima.com/app-ads.txt`.
 
 ---
 
