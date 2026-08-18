@@ -1,4 +1,4 @@
-User-agent: *
-Allow: /
+User-agent: Google-adstxt
+Disallow:
 
 Sitemap: https://www.diceminima.com/sitemap.xml
