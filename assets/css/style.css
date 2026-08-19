@@ -66,13 +66,24 @@ h1 {
     flex: 1;
 }
 
+.release-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 40px;
+}
+
 .release-info {
     background-color: var(--card-bg);
     border-radius: 16px;
     padding: 30px;
-    margin-top: 40px;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.download-card {
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 .release-info h2 {
@@ -90,6 +101,34 @@ h1 {
 
 .release-info a {
     font-weight: 600;
+}
+
+.hero-actions {
+    margin: 8px 0 16px;
+}
+
+.primary-button {
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #4285F4 0%, #6aa2ff 100%);
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 0 8px 24px rgba(66, 133, 244, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.primary-button:hover {
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px rgba(66, 133, 244, 0.35);
+}
+
+.release-meta {
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #8ea0b3;
 }
 
 .features {
@@ -225,4 +264,25 @@ footer a {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 640px) {
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .release-info,
+    .privacy-content,
+    .feature-card {
+        padding: 24px;
+    }
+
+    .primary-button {
+        width: 100%;
+        text-align: center;
+    }
 }
